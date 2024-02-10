@@ -1,0 +1,76 @@
+<!ELEMENT teiCorpus (teiHeader, TEI+)>
+<!ATTLIST teiCorpus
+    xmlns CDATA #FIXED "http://www.tei-c.org/ns/1.0">
+
+<!ELEMENT teiHeader (fileDesc, profileDesc)>
+<!ELEMENT fileDesc (titleStmt, editionStmt?, publicationStmt, sourceDesc?)>
+<!ELEMENT titleStmt (title, author+, editor*, respStmt*, sponsor*, funder*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT editor (#PCDATA)>
+<!ELEMENT respStmt (#PCDATA)>
+<!ELEMENT sponsor (#PCDATA)>
+<!ELEMENT funder (#PCDATA)>
+<!ELEMENT editionStmt (edition, respStmt*)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT publicationStmt (publisher?, pubPlace?, date+, availability)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT pubPlace (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date
+    when CDATA #IMPLIED>
+<!ELEMENT availability (licence)>
+<!ELEMENT licence (#PCDATA)>
+<!ATTLIST licence
+    target CDATA #IMPLIED>
+
+<!ELEMENT sourceDesc (biblFull)>
+<!ELEMENT biblFull (titleStmt, publicationStmt, seriesStmt?)>
+<!ELEMENT seriesStmt (title, biblScope+)>
+<!ELEMENT biblScope (#PCDATA)>
+<!ATTLIST biblScope
+    unit (book|part|page) #REQUIRED>
+
+<!ELEMENT profileDesc (creation)>
+<!ELEMENT creation (title, objectType, origDate, country?, lang?)>
+<!ELEMENT objectType (#PCDATA)>
+<!ELEMENT origDate (#PCDATA)>
+<!ATTLIST origDate
+    type (date|date-range) #REQUIRED>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT lang (#PCDATA)>
+
+<!ELEMENT TEI (teiHeader, text)>
+<!ATTLIST TEI
+    xml:id ID #REQUIRED>
+
+<!ELEMENT text (front, body)>
+<!ELEMENT front (fw*, head?, figure?)>
+<!ELEMENT fw (#PCDATA)>
+<!ATTLIST fw
+    place (top-left|top-right|top-center|bot-left|bot-right|bot-center) #REQUIRED
+    type (pageNum|header|bandeaux|cul-de-lampe|sign) #REQUIRED>
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT figure (graphic)>
+<!ELEMENT graphic EMPTY>
+<!ATTLIST graphic
+    url CDATA #REQUIRED>
+
+<!ELEMENT body (div+)>
+<!ELEMENT div (head?, lg*)>
+<!ATTLIST div
+    xml:id ID #IMPLIED
+    type (page) #IMPLIED
+    n CDATA #IMPLIED>
+<!ELEMENT lg (#PCDATA)>
+<!ATTLIST lg
+    type (quatrain|quintil|sizain) #IMPLIED>
+<!ELEMENT placeName (#PCDATA)>
+<!ELEMENT persName (#PCDATA)>
+<!ATTLIST persName
+    xml:id ID #IMPLIED
+    ref CDATA #IMPLIED>
+<!ELEMENT rs EMPTY>
+<!ATTLIST rs
+    type (person|entity) #REQUIRED
+    ref CDATA #IMPLIED>

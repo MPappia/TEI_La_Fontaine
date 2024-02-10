@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "DTD_Fable.dtd">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fables choisies, mises en vers par M. de La Fontaine</title>
+            <author ref="https://catalogue.bnf.fr/ark:/12148/cb11910267w">
+               <forename>Jean</forename>
+               <surname>(de) La Fontaine</surname>
+            </author>
+            <editor role="editor">Claude Barbin</editor>
+            <editor role="engraver">François Chauveau</editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>Évaluation XML-TEI dans le cadre du Master "Technologies Numériques Appliquées à l'Histoire" - École National des Chartes - <date when="2024-02"> Février 2024</date></edition>
+            <respStmt>
+               <resp>Encodage de la monographie.</resp>
+               <persName xml:id="EF">
+                  <forename>Elliot</forename>
+                  <surname>Fabert</surname>
+               </persName>
+            </respStmt>
+         </editionStmt>
+         <!-- Information concernant l'hypothétique publication de cet encodage des fables 17 à 19 de Jean de La Fontaine-->
+         <publicationStmt>
+            <publisher> Édition en ligne de l'École des Chartes</publisher>
+            <pubPlace> Paris </pubPlace>
+            <date when="2024-02">Février 2024</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Publication sous Licence Creative Commons Attribution-ShareAlike (CC BY-SA)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Fables Choisies. Mise en Vers par M.de la Fontaine.</title>
+                  <author ref="https://catalogue.bnf.fr/ark:/12148/cb11925725r">
+                     <forename>Eugène</forename>
+                     <surname>Sue</surname>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Chez Claude Barbin</publisher>
+                  <pubPlace>
+                     <address>
+                        <country key="FR"/>
+                        <settlement type="city">Paris</settlement>
+                        <street>
+                           au Palais sur le Perron de la Sainte Chapelle.
+                        </street>
+                     </address>
+                  </pubPlace>
+                  <date when-iso="1668">1668</date>
+                  <distributor facs="https://gallica.bnf.fr/ark:/12148/btv1b8610825d/">Gallica
+                     Bibliothèque nationale de France</distributor>
+                  <availability>
+                     <licence target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica">
+                        Domaine public
+                     </licence>
+                  </availability>
+               </publicationStmt>
+               <seriesStmt>
+                  <title>FABLES CHOISES. MISES EN VERS Par M. de la Fontaine.</title>
+                  <biblScope unit="book">FABLES CHOISES. MISES EN VERS Par M. de la Fontaine.</biblScope>
+                  <biblScope unit="part">Les fables 17 à 19</biblScope>
+                  <biblScope unit="page" from="37" to="42">pp. 37-42</biblScope>
+               </seriesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <title>Fables choisies</title>
+            <objectType>Monographie imprimée</objectType>
+            <origDate type="date-range">XVIe siècle</origDate>
+            <country> France </country>
+            <lang>>Français</lang>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <TEI xml:id="fable17">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Fables choisies, mises en vers par M. de La Fontaine</title>
+               <author ref="https://catalogue.bnf.fr/ark:/12148/cb11910267w">
+                  <forename>Jean</forename>
+                  <surname>(de) La Fontaine</surname>
+               </author>
+               <editor role="editor">Claude Barbin</editor>
+               <editor role="engraver">François Chauveau</editor>
+            </titleStmt>
+            <editionStmt>
+               <edition>Évaluation XML-TEI dans le cadre du Master "Technologies Numériques Appliquées à l'Histoire" - École National des Chartes - <date when="2024-02"> Février 2024</date></edition>
+               <respStmt>
+                  <resp>Encodage de la monographie.</resp>
+                  <persName ref="#EF">
+                     <forename>Elliot</forename>
+                     <surname>Fabert</surname>
+                  </persName>
+               </respStmt>
+            </editionStmt>
+            <!-- Information concernant l'hypothétique publication de cet encodage des fables 17 à 19 de Jean de La Fontaine-->
+            <publicationStmt>
+               <publisher> Édition en ligne de l'École des Chartes</publisher>
+               <pubPlace> Paris </pubPlace>
+               <date when="2024-02">Février 2024</date>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Publication sous Licence Creative Commons Attribution-ShareAlike (CC BY-SA)</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <biblFull>
+                  <titleStmt>
+                     <title>Fables Choisies. Mise en Vers par M.de la Fontaine.</title>
+                     <author ref="https://catalogue.bnf.fr/ark:/12148/cb11925725r">
+                        <forename>Eugène</forename>
+                        <surname>Sue</surname>
+                     </author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>Chez Claude Barbin</publisher>
+                     <pubPlace>
+                        <address>
+                           <country key="FR"/>
+                           <settlement type="city">Paris</settlement>
+                           <street>
+                              au Palais sur le Perron de la Sainte Chapelle.
+                           </street>
+                        </address>
+                     </pubPlace>
+                     <date when-iso="1668">1668</date>
+                     <distributor facs="https://gallica.bnf.fr/ark:/12148/btv1b8610825d/">Gallica
+                        Bibliothèque nationale de France</distributor>
+                     <availability>
+                        <licence target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica">
+                           Domaine public
+                        </licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title>FABLES CHOISES. MISES EN VERS Par M. de la Fontaine.</title>
+                     <biblScope unit="book">FABLES CHOISES. MISES EN VERS Par M. de la Fontaine.</biblScope>
+                     <biblScope unit="part">Les fables 17 à 19</biblScope>
+                     <biblScope unit="page" from="37" to="42">pp. 37-42</biblScope>
+                  </seriesStmt>
+               </biblFull>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <fw place="top-right" type="pageNum">37</fw>
+            <fw place="center" type="header">LIVRE I.</fw>
+            <fw place="top-center" type="bandeaux"></fw>
+            <head> FABLE DIX-SEPTIESME.</head>
+            <figure><graphic url="#fable1r"></graphic></figure>
+         </front>
+         <body>
+            <div xml:id="fable1r" type="page" n="1">
+               <head>L'Homme entre deux âges, &amp; ses deux Maistresses</head>
+               <lg type="quatrain">
+                  <l>UN <rs type="person">homme</rs> de moyen âge,</l>
+                  <l>Et tirant sur le grison, </l>
+                  <l>Jugea qu'il estoit saison</l>
+                  <l>De songer au mariage.</l>
+               </lg>
+               <lg type="quintil">
+                  <l> Il avoit du contant,</l> 
+                  <l> Et partant</l>
+                  <l>Dequoy choisir; toutes vouloient lui plaire;</l>
+                  <l>En quoy nostre Amoureux ne se pressoit pas tant :</l>
+                  <l>Bien adresser n'est pas petite affaire.</l>
+               </lg>
+               <fw place="bot-right" type="sign">E iij</fw>
+            </div>
+            <div xml:id="fable1v" type="page" n="2">
+               <fw place="top-left" type="pageNum">38</fw>
+               <fw place="top-center" type="header">FABLES CHOISIES.</fw>
+               <lg type="quatrain">
+                  <l><rs type="person">Deux Veuves</rs> sur son coeur eurent le plus de part;</l>
+                  <l>L'une encor' verte, &amp; l'autre un peu bien mure; </l>
+                  <l>Mais qui reparoit par son art, </l>
+                  <l>Ce qu'avoit détruit la Nature.</l>
+               </lg>
+               <lg type="quatrain">
+                  <l>Ces <rs type="person">deux Veuves</rs> en badinant, </l>
+                  <l>En riant, en luy faisant feste, </l>
+                  <l>L'alloient quelquefois testonnant;</l>
+                  <l>C'est à dire aujustant sa teste.</l>
+               </lg>
+               <lg type="sizain">
+                  <l><rs type="person">La Vielle</rs> à tous momens de sa part emportoit</l>
+                  <l>Un peu du poil noir qui restoit,</l>
+                  <l>Afin que son <rs type="person">Amant</rs> en fust plus à sa guise:</l>
+                  <l><rs type="person">La Jeune</rs> saccageoit les poils blancs à son tour:</l>
+                  <l>Toutes deux firent tant que nostre teste grise</l>
+                  <l>Demeura sans cheveux, &amp; se douta du tour. </l>
+               </lg>
+               <lg type="quatrain">
+                  <l>Je vous rends, leur dit-il, mille graces, les Belles, </l>
+                  <l>Qui m'avez si bien tondu:</l>
+                  <l>J'ay plus gagné que perdu;</l>
+                  <l>Car d'Hymen, point de nouvelles.</l>
+               </lg>
+               <lg type="quatrain">
+                  <l>Celle que je prendrois voudroit qu'à sa façon</l>
+                  <l>Je vécusse, &amp; non à la mienne.</l>
+                  <l>Il n'est teste chauve qui tienne; </l>
+                  <l>Je vous suis obligé, Belles, de la leçon.</l>
+               </lg>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:id="fable18">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Fables choisies, mises en vers par M. de La Fontaine</title>
+               <author ref="https://catalogue.bnf.fr/ark:/12148/cb11910267w">
+                  <forename>Jean</forename>
+                  <surname>(de) La Fontaine</surname>
+               </author>
+               <editor role="editor">Claude Barbin</editor>
+               <editor role="engraver">François Chauveau</editor>
+            </titleStmt>
+            <editionStmt>
+               <edition>Évaluation XML-TEI dans le cadre du Master "Technologies Numériques Appliquées à l'Histoire" - École National des Chartes - <date when="2024-02"> Février 2024</date></edition>
+               <respStmt>
+                  <resp>Encodage de la monographie.</resp>
+                  <persName ref="#EF">
+                     <forename>Elliot</forename>
+                     <surname>Fabert</surname>
+                  </persName>
+               </respStmt>
+            </editionStmt>
+            <!-- Information concernant l'hypothétique publication de cet encodage des fables 17 à 19 de Jean de La Fontaine-->
+            <publicationStmt>
+               <publisher> Édition en ligne de l'École des Chartes</publisher>
+               <pubPlace> Paris </pubPlace>
+               <date when="2024-02">Février 2024</date>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Publication sous Licence Creative Commons Attribution-ShareAlike (CC BY-SA)</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <biblFull>
+                  <titleStmt>
+                     <title>Fables Choisies. Mise en Vers par M.de la Fontaine.</title>
+                     <author ref="https://catalogue.bnf.fr/ark:/12148/cb11925725r">
+                        <forename>Eugène</forename>
+                        <surname>Sue</surname>
+                     </author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>Chez Claude Barbin</publisher>
+                     <pubPlace>
+                        <address>
+                           <country key="FR"/>
+                           <settlement type="city">Paris</settlement>
+                           <street>
+                              au Palais sur le Perron de la Sainte Chapelle.
+                           </street>
+                        </address>
+                     </pubPlace>
+                     <date when-iso="1668">1668</date>
+                     <distributor facs="https://gallica.bnf.fr/ark:/12148/btv1b8610825d/">Gallica
+                        Bibliothèque nationale de France</distributor>
+                     <availability>
+                        <licence target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica">
+                           Domaine public
+                        </licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title>FABLES CHOISES. MISES EN VERS Par M. de la Fontaine.</title>
+                     <biblScope unit="book">FABLES CHOISES. MISES EN VERS Par M. de la Fontaine.</biblScope>
+                     <biblScope unit="part">Les fables 17 à 19</biblScope>
+                     <biblScope unit="page" from="37" to="42">pp. 37-42</biblScope>
+                  </seriesStmt>
+               </biblFull>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <fw place="top-center" type="header">LIVRE I.</fw>
+            <fw place="top-right" type="pageNum">39</fw>
+            <fw place="top-center" type="bandeaux"></fw>
+            <head>FABLE DIX-HUITIESME.</head>
+            <figure><graphic url="#fable2r"></graphic></figure>
+         </front>
+         <body>      
+            <div xml:id="fable2r" type="page" n="1">
+               <head> Le Renard &amp; la Cicogne.</head>
+               <lg>
+                  <l>Compere <persName xml:id="renard">le Renard</persName> se mit un jour en frais,</l>
+                  <l> Et retint à disner commere <persName xml:id="cigogne">la Cicogne</persName>.</l>
+               </lg>
+               <lg>
+                  <l>Le Régal fut petit, &amp; sans beaucoup d'apprests:</l>
+                  <l> <persName ref="renard">Le Galand </persName>pour toute besogne</l>
+                  <l> Avoit un broüet clair (il vivoit chichement:)</l>
+                  <l> Ce broüet fut par luy servy sur une assiete.</l>
+               </lg>
+               <lg>
+                  <l> <persName ref='cigogne'>La Cicogne</persName> au long bec n'en pût attraper miete;</l>
+                  <l>Et le Drosle eust lappé le tout en un moment.</l>
+               </lg>
+               <lg>
+                  <l>Pour se vanger de cette tromperie,</l>
+                  <l>A quelque-temps delà la <persName ref='cigogne'>Cicogne</persName> le prie:</l>
+               </lg>
+            </div>
+            <div xml:id="fable2v" type="page" n="2">
+               <fw place="top-left" type="pageNum">40</fw>
+               <fw place="top-center" type="header">FABLES CHOISIES</fw>
+               <lg>
+                  <l>Volontiers, luy dit-il, car avec mes amis</l>
+                  <l> Je ne fais point ceremonie.</l>
+               </lg>
+               <lg>
+                  <l>A l'heure dite il courut au logis</l>
+                  <l>De <persName ref='cigogne'>la Cicogne</persName> son hostesse;</l>
+                  <l>Loüa tres-fort sa politesse,</l>
+                  <l>Trouva le disner cuit à point.</l>
+               </lg>
+               <lg>
+                  <l>Bon appetit sur tout;</l>
+                  <l> <persName ref="#renard">Renards</persName> n'en manquent point.</l>
+               </lg>
+               <lg>
+                  <l>Il se réjouïssoit à l'odeur de la viande</l>
+                  <l>Mise en menus morceaux, &amp; qu'il croyoit friande.</l>
+               </lg>
+               <lg>
+                  <l>On servit pour l'embarasser</l>
+                  <l>En un vase à long col, &amp; et d'étroite embouchûre:</l>
+                  <l>Lec bec de la <persName ref="#cigogne">Cicogne</persName> y pouvoit bien passer,</l>
+                  <l>Mais le museau du <persName ref='#renard'>Sire</persName> estoit d'autre mesure.</l>
+               </lg>
+               <lg>
+                  <l>Il luy falut à jeun retourner au logis,</l>
+                  <l> Honteux comme un Renard qu'une Poule auroit pris,</l>
+                  <l> Serrant la queuë, &amp; portant bas l'oreille.</l>
+               </lg>
+               <lg>
+                  <l>Trompeurs, c'est pour vous que j'écris,</l>
+                  <l>Attendez-vous à la pareille.</l>
+               </lg>
+               <fw place="bot-center" type="cul-de-lampe"></fw>
+               <fw place="bot-right" type="sign">FABLE</fw>
+            </div>
+        </body>
+      </text>
+   </TEI>
+   <TEI xml:id="fable19">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Fables choisies, mises en vers par M. de La Fontaine</title>
+               <author ref="https://catalogue.bnf.fr/ark:/12148/cb11910267w">
+                  <forename>Jean</forename>
+                  <surname>(de) La Fontaine</surname>
+               </author>
+               <editor role="editor">Claude Barbin</editor>
+               <editor role="engraver">François Chauveau</editor>
+            </titleStmt>
+            <editionStmt>
+               <edition>Évaluation XML-TEI dans le cadre du Master "Technologies Numériques Appliquées à l'Histoire" - École National des Chartes - <date when="2024-02"> Février 2024</date></edition>
+               <respStmt>
+                  <resp>Encodage de la monographie.</resp>
+                  <persName ref="#EF">
+                     <forename>Elliot</forename>
+                     <surname>Fabert</surname>
+                  </persName>
+               </respStmt>
+            </editionStmt>
+            <!-- Information concernant l'hypothétique publication de cet encodage des fables 17 à 19 de Jean de La Fontaine-->
+            <publicationStmt>
+               <publisher> Édition en ligne de l'École des Chartes</publisher>
+               <pubPlace> Paris </pubPlace>
+               <date when="2024-02">Février 2024</date>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Publication sous Licence Creative Commons Attribution-ShareAlike (CC BY-SA)</licence>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <biblFull>
+                  <titleStmt>
+                     <title>Fables Choisies. Mise en Vers par M.de la Fontaine.</title>
+                     <author ref="https://catalogue.bnf.fr/ark:/12148/cb11925725r">
+                        <forename>Eugène</forename>
+                        <surname>Sue</surname>
+                     </author>
+                  </titleStmt>
+                  <publicationStmt>
+                     <publisher>Chez Claude Barbin</publisher>
+                     <pubPlace>
+                        <address>
+                           <country key="FR"/>
+                           <settlement type="city">Paris</settlement>
+                           <street>
+                              au Palais sur le Perron de la Sainte Chapelle.
+                           </street>
+                        </address>
+                     </pubPlace>
+                     <date when-iso="1668">1668</date>
+                     <distributor facs="https://gallica.bnf.fr/ark:/12148/btv1b8610825d/">Gallica
+                        Bibliothèque nationale de France</distributor>
+                     <availability>
+                        <licence target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica">
+                           Domaine public
+                        </licence>
+                     </availability>
+                  </publicationStmt>
+                  <seriesStmt>
+                     <title>FABLES CHOISES. MISES EN VERS Par M. de la Fontaine.</title>
+                     <biblScope unit="book">FABLES CHOISES. MISES EN VERS Par M. de la Fontaine.</biblScope>
+                     <biblScope unit="part">Les fables 17 à 19</biblScope>
+                     <biblScope unit="page" from="37" to="42">pp. 37-42</biblScope>
+                  </seriesStmt>
+               </biblFull>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <front>
+               <fw place="top-center" type="header">LIVRE I.</fw>
+               <fw place="top-right" type="pageNum">41</fw>
+               <fw place="top-center" type="bandeaux"></fw>
+               <head>FABLE DIX-NEUFIESME.</head>
+               <figure><graphic url="#fable3r"></graphic></figure>
+         </front>
+         <body>
+            <div xml:id="fable3r" type="page" n="1">
+               <head> FABLE DIX-NEUFIESME. L'Enfant &amp; le Maistre d'Ecole.</head>
+               <lg>
+                  <l>Dans ce Recit je prétens faire voir</l>
+                  <l>D'un certain Sot la remonstrance vaine.</l>
+               </lg>
+               <lg>
+                  <l><rs type="person">Un jeune enfant</rs> dans l'eau se laissa choir,</l>
+                  <l>En badinant sur les <placeName>bords de la Seine</placeName>.</l>
+               </lg>
+               <lg>
+                  <l>Le Ciel permit qu'un Saule se trouva,</l>
+                  <l> Dont le branchage, aprés Dieu, le sauva.</l>
+               </lg>
+               <lg>
+                  <l>S'estant pris, dis-je, aux branches de ce Saule;</l>
+                  <l>Par cét endroit passe un <rs type='person'>Masitre d'Ecole</rs>;</l>
+                  <l><rs type='person'>L'Enfant </rs>luy crie : Au secours, je peris.</l>
+               </lg>
+               <lg>
+                  <l><rs type='person'>Le Magister</rs> se tournant à ses cris,</l>
+               </lg>
+               <fw place="bot-right" type="sign">F</fw>
+            </div>
+            <div xml:id="fable3v" type="page" n="2">
+               <fw place='top-left' type="pageNum">42</fw>
+               <fw place='top-center' type="header">FABLES CHOISIES.</fw>
+               <lg>
+                  <l>D'un ton fort grave à contre-temps s'avise</l>
+                  <l> De le tancer : Ah le petit baboüin!</l>
+                  <l>Voyez, dit-il, où l'a mis sa sottise!</l>
+                  <l>Et puis prenez de tels fripons le soin.</l>
+               </lg>
+               <lg>
+                  <l>Que les parens sont mal-heureux, qu'il faille</l>
+                  <l>Toûjours veiller à semblable canaille !</l>
+                  <l> Qu'ils ont de maux ! &amp; que je plains leur sort !</l>
+                  <l>Ayant tout dit il mit l'enfant à bord.</l>
+               </lg>
+               <lg>
+                  <l>Je blâme icy plus de gens qu'on se pense.</l>
+                  <l>Tout babillard, tout censeur, tout pedant,</l>
+                  <l>Se peut connoistre au discours que j'avance:</l>
+                  <l>Chacun des trois fait un peuple fort grand;</l>
+                  <l><rs type='entity'>Le Createur</rs> en a beny l'engeance.</l>
+               </lg>
+               <lg>
+                  <l>En toute affaire ils ne font que songer</l>
+                  <l>Aux moyens d'ecercer leur langue</l>
+                  <l>GHé mon amy, tire-moy de danger;</l>
+                  <l>Tu feras aprés ta harangue.</l>
+               </lg>
+               <fw place='bot-center' type="cul-de-lampe"></fw>
+            </div>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>
