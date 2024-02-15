@@ -157,23 +157,23 @@
             <fw place="top-right" type="pageNum">37</fw>
             <fw place="center" type="header">LIVRE I.</fw>
             <fw place="top-center" type="bandeaux"></fw>
-            <head> FABLE DIX-SEPTIESME.</head>
+            <head> FABLE DIX-<choice><orig>SEPTIESME</orig><reg>SEPTIÈME</reg></choice>.</head>
             <figure><graphic url="#fable1r"></graphic></figure>
          </front>
          <body>
             <div xml:id="fable1r" type="page" n="1">
-               <head>L'Homme entre deux âges, &amp; ses deux Maistresses</head>
+               <head>L'Homme entre deux âges, &amp; ses deux <choice><orig>Maistresses</orig><reg>Maitresses</reg></choice></head>
                <lg type="quatrain">
                   <l>UN <rs type="person">homme</rs> de moyen âge,</l>
                   <l>Et tirant sur le grison, </l>
-                  <l>Jugea qu'il estoit saison</l>
+                  <l>Jugea qu'il <choice><orig>estoit</orig><reg>était</reg></choice> saison</l>
                   <l>De songer au mariage.</l>
                </lg>
                <lg type="quintil">
-                  <l> Il avoit du contant,</l> 
+                  <l> Il <choice><orig>avoit</orig><reg>avait</reg></choice> du contant,</l> 
                   <l> Et partant</l>
-                  <l>Dequoy choisir; toutes vouloient lui plaire;</l>
-                  <l>En quoy nostre Amoureux ne se pressoit pas tant :</l>
+                  <l><choice><orig>Dequoy</orig><reg>De quoi</reg></choice> choisir; toutes <choice><orig>vouloient</orig><reg>voulaient</reg></choice> lui plaire;</l>
+                  <l><choice><orig>En quoy</orig><reg>En quoi</reg></choice> <choice><orig>nostre</orig><reg>notre</reg></choice> Amoureux ne se <choice><orig>pressoit</orig><reg>pressait</reg></choice> pas tant :</l>
                   <l>Bien adresser n'est pas petite affaire.</l>
                </lg>
                <fw place="bot-right" type="sign">E iij</fw>
@@ -183,38 +183,38 @@
                <fw place="top-center" type="header">FABLES CHOISIES.</fw>
                <lg type="quatrain">
                   <l><rs type="person">Deux Veuves</rs> sur son coeur eurent le plus de part;</l>
-                  <l>L'une encor' verte, &amp; l'autre un peu bien mure; </l>
-                  <l>Mais qui reparoit par son art, </l>
+                  <l>L'une <choice><orig>encor'</orig><reg>encore</reg></choice> verte, &amp; l'autre un peu bien mure; </l>
+                  <l>Mais qui <choice><orig>reparoit</orig><reg>reparaît</reg></choice> par son art, </l>
                   <l>Ce qu'avoit détruit la Nature.</l>
                </lg>
                <lg type="quatrain">
                   <l>Ces <rs type="person">deux Veuves</rs> en badinant, </l>
-                  <l>En riant, en luy faisant feste, </l>
+                  <l>En riant, <choice><orig>en luy faisant feste</orig><reg>en lui faisant fête</reg></choice>, </l>
                   <l>L'alloient quelquefois testonnant;</l>
-                  <l>C'est à dire aujustant sa teste.</l>
+                  <l>C'est à dire ajustant sa <choice><orig>teste</orig><reg>tête</reg></choice>.</l>
                </lg>
                <lg type="sizain">
-                  <l><rs type="person">La Vielle</rs> à tous momens de sa part emportoit</l>
-                  <l>Un peu du poil noir qui restoit,</l>
-                  <l>Afin que son <rs type="person">Amant</rs> en fust plus à sa guise:</l>
-                  <l><rs type="person">La Jeune</rs> saccageoit les poils blancs à son tour:</l>
-                  <l>Toutes deux firent tant que nostre teste grise</l>
+                  <l><rs type="person">La Vielle</rs> à tous momens de sa part <choice><orig>emportoit</orig><reg>emportait</reg></choice></l>
+                  <l>Un peu du poil noir qui <choice><orig>restoit</orig><reg>restait</reg></choice>,</l>
+                  <l>Afin que son <rs type="person">Amant</rs> en <choice><orig>fust</orig><reg>fût</reg></choice> plus à sa guise:</l>
+                  <l><rs type="person">La Jeune</rs> <choice><orig>saccageoit</orig><reg>saccageait</reg></choice> les poils blancs à son tour:</l>
+                  <l>Toutes deux firent tant que <choice><orig>nostre</orig><reg>notre</reg></choice> teste grise</l>
                   <l>Demeura sans cheveux, &amp; se douta du tour. </l>
                </lg>
                <lg type="quatrain">
                   <l>Je vous rends, leur dit-il, mille graces, les Belles, </l>
-                  <l>Qui m'avez si bien tondu:</l>
-                  <l>J'ay plus gagné que perdu;</l>
+                  <l>Qui m'avez si bien <choice><orig>J'ay</orig><reg>j'ai</reg></choice> plus gagné que perdu;</l>
                   <l>Car d'Hymen, point de nouvelles.</l>
                </lg>
                <lg type="quatrain">
-                  <l>Celle que je prendrois voudroit qu'à sa façon</l>
+                  <l>Celle que je <choice><orig>prendrois</orig><reg>prendrais</reg></choice> voudroit qu'à sa façon</l>
                   <l>Je vécusse, &amp; non à la mienne.</l>
-                  <l>Il n'est teste chauve qui tienne; </l>
+                  <l>Il n'est <choice><orig>teste</orig><reg>tête</reg></choice> chauve qui tienne; </l>
                   <l>Je vous suis obligé, Belles, de la leçon.</l>
                </lg>
             </div>
          </body>
+         
       </text>
    </TEI>
    <TEI xml:id="fable18">
@@ -292,62 +292,64 @@
             <fw place="top-center" type="header">LIVRE I.</fw>
             <fw place="top-right" type="pageNum">39</fw>
             <fw place="top-center" type="bandeaux"></fw>
-            <head>FABLE DIX-HUITIESME.</head>
+            <head>FABLE DIX-<choice><orig>HUITIESME</orig><reg>HUITIÈME</reg></choice>.</head>
             <figure><graphic url="#fable2r"></graphic></figure>
          </front>
          <body>      
             <div xml:id="fable2r" type="page" n="1">
-               <head> Le Renard &amp; la Cicogne.</head>
+               <head> Le Renard &amp; la <choice><orig>Cicogne</orig><reg>Cigogne</reg></choice>.</head>
                <lg>
-                  <l>Compere <persName xml:id="renard">le Renard</persName> se mit un jour en frais,</l>
-                  <l> Et retint à disner commere <persName xml:id="cigogne">la Cicogne</persName>.</l>
+                  <l><persName xml:id="renard">Compere le Renard</persName> se mit un jour en frais,</l>
+                  <l> Et retint à <choice><orig>disner</orig><reg>dîner</reg></choice> <persName xml:id="cigogne">commere la Cigogne</persName>.</l>
                </lg>
                <lg>
-                  <l>Le Régal fut petit, &amp; sans beaucoup d'apprests:</l>
+                  <l>Le Régal fut petit, &amp; sans beaucoup <choice><orig>d'apprests</orig><reg>d'apprêts</reg></choice>:</l>
                   <l> <persName ref="renard">Le Galand </persName>pour toute besogne</l>
-                  <l> Avoit un broüet clair (il vivoit chichement:)</l>
-                  <l> Ce broüet fut par luy servy sur une assiete.</l>
+                  <l><choice><orig>avoit</orig><reg>avait</reg></choice> un <choice><orig>broüet</orig><reg>brouet</reg></choice> clair (il <choice><orig>vivoit</orig><reg>vivait</reg></choice> chichement:)</l>
+                  <l> Ce <choice><orig>broüet</orig><reg>brouet</reg></choice> fut par lui <choice><orig>servy</orig><reg>servi</reg></choice> sur une assiete.</l>
                </lg>
                <lg>
-                  <l> <persName ref='cigogne'>La Cicogne</persName> au long bec n'en pût attraper miete;</l>
-                  <l>Et le Drosle eust lappé le tout en un moment.</l>
+                  <l> <persName ref='cigogne'>La Cigogne</persName> au long bec n'en pût attraper miete;</l>
+                  <l>Et le <choice><orig>Drosle</orig><reg>drôle</reg></choice> eût <choice><orig>lappé</orig><reg>lapé</reg></choice> le tout en un moment.</l>
                </lg>
                <lg>
                   <l>Pour se vanger de cette tromperie,</l>
-                  <l>A quelque-temps delà la <persName ref='cigogne'>Cicogne</persName> le prie:</l>
+                  <l>A quelque-temps delà la <persName ref='cigogne'>Cigogne</persName> le prie:</l>
                </lg>
             </div>
             <div xml:id="fable2v" type="page" n="2">
                <fw place="top-left" type="pageNum">40</fw>
                <fw place="top-center" type="header">FABLES CHOISIES</fw>
-               <lg>
-                  <l>Volontiers, luy dit-il, car avec mes amis</l>
-                  <l> Je ne fais point ceremonie.</l>
-               </lg>
+               <sp who="renard">
+                  <lg>
+                     <l>Volontiers, lui dit-il, car avec mes amis</l>
+                     <l> Je ne fais point ceremonie.</l>
+                  </lg>
+               </sp>
                <lg>
                   <l>A l'heure dite il courut au logis</l>
-                  <l>De <persName ref='cigogne'>la Cicogne</persName> son hostesse;</l>
-                  <l>Loüa tres-fort sa politesse,</l>
-                  <l>Trouva le disner cuit à point.</l>
+                  <l>De <persName ref='cigogne'>la Cigogne</persName> son <choice><orig>hostesse</orig><reg>hôtesse</reg></choice>;</l>
+                  <l><choice><orig>Loüa</orig><reg>Loua</reg></choice> tres-fort sa politesse,</l>
+                  <l>Trouva le <choice><orig>disner</orig><reg>dîner</reg></choice> cuit à point.</l>
                </lg>
                <lg>
                   <l>Bon appetit sur tout;</l>
                   <l> <persName ref="#renard">Renards</persName> n'en manquent point.</l>
                </lg>
                <lg>
-                  <l>Il se réjouïssoit à l'odeur de la viande</l>
-                  <l>Mise en menus morceaux, &amp; qu'il croyoit friande.</l>
+                  <l>Il se <choice><orig>réjouïssoit</orig><reg>réjouissait</reg></choice> à l'odeur de la viande</l>
+                  <l>Mise en menus morceaux, &amp; qu'il <choice><orig>croyoit</orig><reg>croyait</reg></choice> friande.</l>
                </lg>
                <lg>
                   <l>On servit pour l'embarasser</l>
-                  <l>En un vase à long col, &amp; et d'étroite embouchûre:</l>
-                  <l>Lec bec de la <persName ref="#cigogne">Cicogne</persName> y pouvoit bien passer,</l>
-                  <l>Mais le museau du <persName ref='#renard'>Sire</persName> estoit d'autre mesure.</l>
+                  <l>En un vase à long col, &amp; et d'<choice><orig>étroite embouchûre</orig><reg>étroite embouchure</reg></choice>:</l>
+                  <l>Le bec de la <persName ref="#cigogne">Cigogne</persName> y pouvoit bien passer,</l>
+                  <l>Mais le museau du <persName ref='#renard'>Sire</persName> <choice><orig>estoit</orig><reg>était</reg></choice> d'autre mesure.</l>
                </lg>
                <lg>
-                  <l>Il luy falut à jeun retourner au logis,</l>
-                  <l> Honteux comme un Renard qu'une Poule auroit pris,</l>
-                  <l> Serrant la queuë, &amp; portant bas l'oreille.</l>
+                  <l>Il lui <choice><orig>falut</orig><reg>fallut</reg></choice> à jeun retourner au logis,</l>
+                  <l> Honteux comme un Renard qu'une Poule <choice><orig>auroit</orig><reg>aurait</reg></choice> pris,</l>
+                  <l> Serrant la <choice><orig>queüe</orig><reg>queue</reg></choice>, &amp; portant bas l'oreille.</l>
                </lg>
                <lg>
                   <l>Trompeurs, c'est pour vous que j'écris,</l>
@@ -356,7 +358,7 @@
                <fw place="bot-center" type="cul-de-lampe"></fw>
                <fw place="bot-right" type="sign">FABLE</fw>
             </div>
-        </body>
+         </body>
       </text>
    </TEI>
    <TEI xml:id="fable19">
@@ -434,60 +436,56 @@
                <fw place="top-center" type="header">LIVRE I.</fw>
                <fw place="top-right" type="pageNum">41</fw>
                <fw place="top-center" type="bandeaux"></fw>
-               <head>FABLE DIX-NEUFIESME.</head>
+               <head>
+                  <choice>
+                     <orig>FABLE DIX-NEUFIESME.</orig>
+                     <reg>FABLE DIX-NEUVIÈME.</reg>
+                  </choice>
+               </head>
                <figure><graphic url="#fable3r"></graphic></figure>
          </front>
          <body>
             <div xml:id="fable3r" type="page" n="1">
-               <head> FABLE DIX-NEUFIESME. L'Enfant &amp; le Maistre d'Ecole.</head>
+               <head>L'Enfant &amp; le <choice><orig>Maistre</orig><reg>Maître</reg></choice> d'Ecole.</head>
                <lg>
-                  <l>Dans ce Recit je prétens faire voir</l>
-                  <l>D'un certain Sot la remonstrance vaine.</l>
-               </lg>
-               <lg>
-                  <l><rs type="person">Un jeune enfant</rs> dans l'eau se laissa choir,</l>
-                  <l>En badinant sur les <placeName>bords de la Seine</placeName>.</l>
+                  <l>Dans ce Recit je <choice><orig>prétens</orig><reg>prétend</reg></choice> faire voir</l>
+                  <l>D'un certain Sot la <choice><orig>remonstrance</orig><reg>remontrance</reg></choice> vaine.</l>
                </lg>
                <lg>
                   <l>Le Ciel permit qu'un Saule se trouva,</l>
-                  <l> Dont le branchage, aprés Dieu, le sauva.</l>
+                  <l> Dont le branchage, <choice><orig>aprés</orig><reg>après</reg></choice> Dieu, le sauva.</l>
                </lg>
                <lg>
-                  <l>S'estant pris, dis-je, aux branches de ce Saule;</l>
-                  <l>Par cét endroit passe un <rs type='person'>Masitre d'Ecole</rs>;</l>
-                  <l><rs type='person'>L'Enfant </rs>luy crie : Au secours, je peris.</l>
+                  <l><choice><orig>S'estant</orig><reg>S'étant</reg></choice> pris, dis-je, aux branches de ce Saule;</l>
+                  <l>Par <choice><orig>cét</orig><reg>cet</reg></choice> endroit passe un <rs type='person'>Maître d'Ecole</rs>;</l>
+                  <l>L'Enfant l'<choice><orig>luy</orig><reg>lui</reg></choice> crie : Au secours, je peris.</l>
                </lg>
                <lg>
                   <l><rs type='person'>Le Magister</rs> se tournant à ses cris,</l>
                </lg>
-               <fw place="bot-right" type="sign">F</fw>
-            </div>
-            <div xml:id="fable3v" type="page" n="2">
-               <fw place='top-left' type="pageNum">42</fw>
-               <fw place='top-center' type="header">FABLES CHOISIES.</fw>
                <lg>
                   <l>D'un ton fort grave à contre-temps s'avise</l>
-                  <l> De le tancer : Ah le petit baboüin!</l>
-                  <l>Voyez, dit-il, où l'a mis sa sottise!</l>
+                  <l> De le tancer : Ah le petit <choice><orig>baboüin</orig><reg>babouin</reg></choice> !</l>
+                  <l>Voyez, dit-il, où l'a mis sa sottise !</l>
                   <l>Et puis prenez de tels fripons le soin.</l>
                </lg>
                <lg>
-                  <l>Que les parens sont mal-heureux, qu'il faille</l>
-                  <l>Toûjours veiller à semblable canaille !</l>
+                  <l>Que les <choice><orig>parens</orig><reg>parents</reg></choice> sont <choice><orig>mal-heureux</orig><reg>malheureux</reg></choice>, qu'il faille</l>
+                  <l><choice><orig>Toûjours</orig><reg>Toujours</reg></choice> veiller à semblable canaille !</l>
                   <l> Qu'ils ont de maux ! &amp; que je plains leur sort !</l>
                   <l>Ayant tout dit il mit l'enfant à bord.</l>
                </lg>
                <lg>
-                  <l>Je blâme icy plus de gens qu'on se pense.</l>
+                  <l>Je blâme <choice><orig>icy</orig><reg>ici</reg></choice> plus de gens qu'on se pense.</l>
                   <l>Tout babillard, tout censeur, tout pedant,</l>
-                  <l>Se peut connoistre au discours que j'avance:</l>
+                  <l>Se peut <choice><orig>connoistre</orig><reg>connaître</reg></choice> au discours que j'avance:</l>
                   <l>Chacun des trois fait un peuple fort grand;</l>
-                  <l><rs type='entity'>Le Createur</rs> en a beny l'engeance.</l>
+                  <l><rs type='entity'>Le Createur</rs> en a <choice><orig>beny</orig><reg>béni</reg></choice> l'engeance.</l>
                </lg>
                <lg>
                   <l>En toute affaire ils ne font que songer</l>
-                  <l>Aux moyens d'ecercer leur langue</l>
-                  <l>GHé mon amy, tire-moy de danger;</l>
+                  <l><choice><orig>aux moyens d'exercer leur langue</orig><reg>aux moyens d'exercer leur langue</reg></choice></l>
+                  <l>Hé mon <choice><orig>amy</orig><reg>ami</reg></choice>, tire-<choice><orig>moy</orig><reg>moi</reg></choice> de danger;</l>
                   <l>Tu feras aprés ta harangue.</l>
                </lg>
                <fw place='bot-center' type="cul-de-lampe"></fw>
