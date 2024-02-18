@@ -203,12 +203,60 @@
                               <fw place="bot-right" type="sign">E iij</fw>
                            </div>
                         </egXML></p>
+                    <p>Dans les balises vers <gi>l</gi>, on peut trouver quelques balises. Des balises <gi>rs</gi> permettant de mettre en avant les références à des personnages. Dans les fables, n'ayant pas de noms propres qui caractérisent les peronnages, ce sont des noms symboliques comme Renard, Maître d'École dans le cas de nos fables.
+                       Chaque <gi>rs</gi> détient un attribut <att>type</att> afin de savoir s'il s'agit d'une personne ou non : cela peut etre <att>person</att>. Un cas fut compliqué à choisir, il s'agit tout simplement de choisir le type à attribuer à Dieu. Dans la dernière fable, Dieu est présent sous le nom "Le Créateur", un balisage <gi>rs</gi> avec un <att>type</att> "entite"fut choisi.
+                        De plus, on peut y trouver la balise <gi>name</gi> pour faire mention d'un lieu. N'étant pas un lieu précis, mais un bord de fleuve, l'attribut <att>type</att> "lieu" fut choisi pour "Seine".
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                              <!-- Type lieu -->
+                              <lg>
+                                 <l>Un jeune enfant dans l'eau se laissa choir,</l>
+                                 <l>En badinant sur les bords de la <name type="lieu">Seine</name>.</l>
+                              </lg>
+                              <!-- Type person -->
+                              <lg>
+                                 <l><rs type='person'>Le Magister</rs> se tournant à ses cris,</l>
+                              </lg>
+                              <!-- Type entite -->
+                              <lg>
+                                 <l>Je blâme <choice><orig>icy</orig><reg>ici</reg></choice> plus de gens qu'on se pense.</l>
+                                 <l>Tout babillard, tout censeur, tout pedant,</l>
+                                 <l>Se peut <choice><orig>connoistre</orig><reg>connaître</reg></choice> au discours que j'avance:</l>
+                                 <l>Chacun des trois fait un peuple fort grand;</l>
+                                 <l><rs type='entity'>Le Createur</rs> en a <choice><orig>beny</orig><reg>béni</reg></choice> l'engeance.</l>
+                              </lg>
+                           </egXML></p>
                   </div4>
+               </div3>
+            </div2>
+            <div2>
+               <head>L'édition</head>
+               <div3>
+                  <head> La normalisation </head>
+                  <p>Les fables choisies pour cette édition encodée proviennent d'une oeuvre du XVIIe siècle, et l'orthographe de certains 
+                  mots ont changé avec le temps. Pour rendre cette édition plus facilement lisible pour un jeune lecteur du XXIe siècle, le choix a été fait 
+                  de normaliser certains mots et de revenir à une conjugaison de certains verbes, notamment les verbes à l'imparfait, plus contemporaine.</p>
+                  <p>Les documents ne comportent pas d'abréviations ou de dates ou d'auters données à normaliser.</p>
+               </div3>
+               <div3>
+                  <head>Le choix de l'édition numérique</head>
+                  <p> L'encodage numérique d'une édition des Fables de La Fontaine présente divers avantages, notamment une accessibilité accrue grâce à sa disponibilité en ligne et sur divers appareils électroniques. 
+                     En permettant la recherche textuelle, il facilite la recherche tout en simplifiant la diffusion et le partage sur Internet, économisant ainsi de l'espace et des coûts de distribution par rapport aux éditions papier. 
+                     De plus, cette méthode offre une flexibilité dans la présentation en intégrant des médias variés. Les outils d'analyse textuelle avancée peuvent également être appliqués, offrant ainsi de nouvelles perspectives sur le texte. 
+                     En intégrant ces avantages à l'encodage selon les directives de la TEI, l'expérience de lecture des Fables de La Fontaine est enrichie tout en facilitant la recherche, la diffusion et l'analyse.</p>
+               </div3>
+               <div3>
+                  <head>L'enrichissement du contenu encodé</head>
+                  <p>L'édition numérique via un encodage respectant les normes TEI permet de pouvoir enrichir le contenu en y ajoutant des métadonnées, des balises structurantes ou encore des liens hypertextes.
+                  Grâce au balisage, il est possible de localiser rapidement certaines parties du document comme la structure, ou encore des données comme les personnages ou des noms de lieux.
+                  De plus, l'enrichissement peut intégrer des médias variés comme des images, améliorant ainsi l'expérience utilisateur en rendant le texte interactif et informatif. 
+                  En somme, cette démarche vise à rendre le contenu des Fables de La Fontaine plus engageant et accessible.</p>
                </div3>
             </div2>
          </div1>
          <div1>
+            <head>Les éléments utilisés pour l'encodage</head>
                <schemaSpec ident="oddbyexample" start="TEI teiCorpus">
+                  
                   <moduleRef key="tei"/>
                   <!--Checking module textcrit-->
                   <classRef key="att.textCritical"/>
