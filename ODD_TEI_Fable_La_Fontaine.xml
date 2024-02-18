@@ -129,6 +129,80 @@
                      <head>Le profileDesc</head>
                      <p>Ici, le <gi>profileDesc</gi> est composé d'un seul sous-élément : <specDesc key="creation"/>.
                      </p>
+                     <p>La balise <gi>creation</gi> fournit des détails sur la création de l'œuvre encodée. 
+                        Dans cet encodage, elle précise le titre de l'œuvre ("Fables choisies"), son type ("Monographie imprimée"), la période d'origine ("XVIe siècle"), le pays d'origine (France) et la langue dans laquelle elle est écrite (Français).
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                              <creation>
+                                 <title>Fables choisies</title>
+                                 <objectType>Monographie imprimée</objectType>
+                                 <origDate type="date-range">XVIe siècle</origDate>
+                                 <country> France </country>
+                                 <lang>>Français</lang>
+                              </creation>
+                           </egXML></p>
+                  </div4>
+               </div3>
+               <div3>
+                  <head>Zoom sur le texte</head>
+                  <div4>
+                     <head>Le front</head>
+                     <p>Afin de structurer correctement les documents encodés, le choix a été fait d'ajouter un élement <gi>front</gi> à la structre de chaque fables encodées dans le corpus.
+                     Cette balise permet de mettre en valeur les éléments de la page et non du texte, c'est à dire, tout ce qui se trouve avant le texte, comme le numéro de page, l'en-tête etc.</p>
+                     <p>Dans ce <gi>front</gi>, on trouve trois principaux éléments : <specList>
+                        <specDesc key="fw"/>
+                        <specDesc key="head"/>
+                        <specDesc key="figure"/>
+                     </specList></p>
+                     <p>L'élément <gi>fw</gi> permet de préciser les numéros de pages, l'en-tête de la page ainsi que préciser s'il existe un bandeau ou non sur la page.
+                     À cet élement, deu attributs sont ajoutés. L'atribut <att>place</att> précisant où se trouve la partie ciblée, 
+                     et l'attribut <att>type</att> afin de préciser le type de la partie ciblée (numéro de page(pageNum), en-tête (header), ou un bandeau (bandeaux)). </p>
+                    <p>L'élément <gi>head</gi> permet de mettre en valeur la numérotation de la fable. Dans le livre, les fables sont numérotées. On trouve alors dans le <gi>front</gi> de chaque fable, son numéro.</p>
+                    <p>Pour finir, l'élément <gi>figure</gi> est une balise permettant d'inculre les illustrations présentes au début de chaque fables accompagnant les titres. 
+                       Dans cette balise, on y trouve la balise <gi>graphic</gi> qui est utilisée pour référencer une illustration ou une image.
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <front>
+                           <fw place="top-right" type="pageNum">37</fw>
+                           <fw place="center" type="header">LIVRE I.</fw>
+                           <fw place="top-center" type="bandeaux"></fw>
+                           <head> FABLE DIX-<choice><orig>SEPTIESME</orig><reg>SEPTIÈME</reg></choice>.</head>
+                           <figure><graphic url="#fable1r"></graphic></figure>
+                        </front>
+                     </egXML></p>
+                  </div4>
+                  <div4>
+                     <head>Le corps du texte</head>
+                     <p>L'encodage choisi pour les fables permet de structurer ces dernières en cinq parties : <specList>
+                        <specDesc key="div"/>
+                        <specDesc key="head"/>
+                        <specDesc key="lg"/>
+                        <specDesc key="l"/>
+                        <specDesc key="fw"/>
+                     </specList></p>
+                     <p> Les fables sont découpées en deux pages, et dans l'encodage ces pages sont représentées par la balise <gi>div</gi>, balise à laquelle on y ajoute trois attributs : <att>xml:id</att> afin de savoir de quelle fable il s'agit et de quelle face de la fueille il s'agit (recto/verso); 
+                     un <att> type</att> précisant la nature de la <gi>div</gi>, ici une page; et enfin un attribut <att>n</att> permettant d'identifier le numéro de la <gi>div</gi>.</p>
+                     <p>L'élément <gi>lg</gi> est utilisé pour mettre en valeur les strophes présentes dans les fables. À cet élément, on y précise un attribut <att>type</att> dans lequel on précise le type de strophe qu'il s'agit : couplet, tercet, quatrain ... 
+                     qui est complété par l'élément <gi>l</gi>representant les vers au sein des strophes.
+                     De plus, il est bon de noter que le choix a été fait d'ajouter les balises <gi>head</gi> et <gi> fw</gi>. La première permettant de mettre en valeur le titre de la fable sur la première page, et la seconde permettant de mettre en valeur les informations 
+                     présentes à la fin ou au début de chaque pages, comme le numéro de page, des signatures ou des cul-de-lampes. À la balise <gi> fw</gi>, on y trouve les attributs <att> place </att> et <att> type</att>. 
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <div xml:id="fable1r" type="page" n="1">
+                              <head>L'Homme entre deux âges, &amp; ses deux <choice><orig>Maistresses</orig><reg>Maitresses</reg></choice></head>
+                              <lg type="quatrain">
+                                 <l>UN <rs type="person">homme</rs> de moyen âge,</l>
+                                 <l>Et tirant sur le grison, </l>
+                                 <l>Jugea qu'il <choice><orig>estoit</orig><reg>était</reg></choice> saison</l>
+                                 <l>De songer au mariage.</l>
+                              </lg>
+                              <lg type="quintil">
+                                 <l> Il <choice><orig>avoit</orig><reg>avait</reg></choice> du contant,</l> 
+                                 <l> Et partant</l>
+                                 <l><choice><orig>Dequoy</orig><reg>De quoi</reg></choice> choisir; toutes <choice><orig>vouloient</orig><reg>voulaient</reg></choice> lui plaire;</l>
+                                 <l><choice><orig>En quoy</orig><reg>En quoi</reg></choice> <choice><orig>nostre</orig><reg>notre</reg></choice> Amoureux ne se <choice><orig>pressoit</orig><reg>pressait</reg></choice> pas tant :</l>
+                                 <l>Bien adresser n'est pas petite affaire.</l>
+                              </lg>
+                              <fw place="bot-right" type="sign">E iij</fw>
+                           </div>
+                        </egXML></p>
                   </div4>
                </div3>
             </div2>
