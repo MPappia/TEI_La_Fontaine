@@ -38,9 +38,9 @@
             <biblFull>
                <titleStmt>
                   <title>Fables Choisies. Mise en Vers par M.de la Fontaine.</title>
-                  <author ref="https://catalogue.bnf.fr/ark:/12148/cb11925725r">
-                     <forename>Eugène</forename>
-                     <surname>Sue</surname>
+                  <author ref="https://catalogue.bnf.fr/ark:/12148/cb38262703h">
+                     <forename>Jean (de)</forename>
+                     <surname>La Fontaine</surname>
                   </author>
                </titleStmt>
                <publicationStmt>
@@ -158,7 +158,7 @@
             <fw place="center" type="header">LIVRE I.</fw>
             <fw place="top-center" type="bandeaux"></fw>
             <head> FABLE DIX-<choice><orig>SEPTIESME</orig><reg>SEPTIÈME</reg></choice>.</head>
-            <figure><graphic url="#fable1r"></graphic></figure>
+            <figure><graphic url="images/fable19r.png"></graphic></figure>
          </front>
          <body>
             <div xml:id="fable1r" type="page" n="1">
@@ -214,7 +214,6 @@
                </lg>
             </div>
          </body>
-         
       </text>
    </TEI>
    <TEI xml:id="fable18">
@@ -293,7 +292,7 @@
             <fw place="top-right" type="pageNum">39</fw>
             <fw place="top-center" type="bandeaux"></fw>
             <head>FABLE DIX-<choice><orig>HUITIESME</orig><reg>HUITIÈME</reg></choice>.</head>
-            <figure><graphic url="#fable2r"></graphic></figure>
+            <figure><graphic url="images/fable18r.png"></graphic></figure>
          </front>
          <body>      
             <div xml:id="fable2r" type="page" n="1">
@@ -442,7 +441,7 @@
                      <reg>FABLE DIX-NEUVIÈME.</reg>
                   </choice>
                </head>
-               <figure><graphic url="#fable3r"></graphic></figure>
+               <figure><graphic url="images/fable19r.png"></graphic></figure>
          </front>
          <body>
             <div xml:id="fable3r" type="page" n="1">
@@ -450,6 +449,10 @@
                <lg>
                   <l>Dans ce Recit je <choice><orig>prétens</orig><reg>prétend</reg></choice> faire voir</l>
                   <l>D'un certain Sot la <choice><orig>remonstrance</orig><reg>remontrance</reg></choice> vaine.</l>
+               </lg>
+               <lg>
+                  <l>Un jeune enfant dans l'eau se laissa choir,</l>
+                  <l>En badinant sur les bords de la <name type="lieu">Seine</name>.</l>
                </lg>
                <lg>
                   <l>Le Ciel permit qu'un Saule se trouva,</l>
