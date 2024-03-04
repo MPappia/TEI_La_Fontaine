@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs tei"
     version="2.0">
- 
+    
     <xsl:output method="html" indent="yes" encoding="UTF-8"/>
     <xsl:strip-space elements="*"/> <!-- pour éviter les espaces non voulus -->
     
@@ -126,36 +126,7 @@
                         <xsl:apply-templates select=".//figure[graphic/@url='images/fable18r.png']"/>
                         <!-- Vers de la fable 18 -->
                         <div id="corpsFable">
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2r']/lg[@type='quatrain']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2r']/lg[@type='quintil']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2r']/lg[@type='sizain']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2r']/lg[not(@type)]"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2r']/lg"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2v']/lg[@type='quatrain']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2v']/lg[@type='quintil']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2v']/lg[@type='sizain']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2v']/lg[not(@type)]"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2v']/lg"/>
-                            </div>
+                            <xsl:apply-templates select="teiCorpus/TEI[@xml:id='fable18']/text/body//lg"/>
                         </div>
                     </div>
                 </body>
@@ -186,36 +157,7 @@
                         <h2>L'Enfant &amp; le Maître d'Ecole.</h2>
                         <xsl:apply-templates select=".//figure[graphic/@url='images/fable19r.png']"/>
                         <div id="corpsFable">
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2r']/lg[@type='quatrain']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2r']/lg[@type='quintil']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2r']/lg[@type='sizain']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2r']/lg[not(@type)]"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2r']/lg"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2v']/lg[@type='quatrain']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2v']/lg[@type='quintil']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2v']/lg[@type='sizain']"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2v']/lg[not(@type)]"/>
-                            </div>
-                            <div class="vers">
-                                <xsl:apply-templates select=".//div[@xml:id='fable2v']/lg"/>
-                            </div>
+                            <xsl:apply-templates select="teiCorpus/TEI[@xml:id='fable19']/text/body//lg"/>
                         </div>
                     </div>                    
                 </body>
@@ -260,7 +202,7 @@
             <xsl:value-of select="."/>
         </p>
     </xsl:template>
-        
+    
     <!-- Modèle de correspondance pour l'image fable17r -->
     <xsl:template match="figure[graphic/@url='images/fable17r.png']">
         <img src="{graphic/@url}" alt="Illustration de la fable"/>
@@ -281,7 +223,7 @@
         <img src="{@url}" alt="Illustration de la fable"/>
     </xsl:template>
     
-
+    
     <!-- Modèle de correspondance pour l'élément <l> dans teiCorpus/TEI/text/body/div/lg -->
     <xsl:template match="tei:teiCorpus/tei:TEI/tei:text/tei:body/tei:div/tei:lg/tei:l">
         <p>
@@ -295,5 +237,5 @@
             <xsl:value-of select="tei:orig"/>
         </span>
     </xsl:template>
-
+    
 </xsl:stylesheet>
