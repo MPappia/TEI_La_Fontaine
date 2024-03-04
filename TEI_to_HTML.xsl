@@ -165,18 +165,7 @@
         </xsl:result-document>
     </xsl:template>
     
-    <!-- Règles de présentation du texte -->
-    
-    <xsl:template match="teiCorpus/TEI[@xml:id='fable17']">
-        <xsl:apply-templates/>
-    </xsl:template>
-    <xsl:template match="teiCorpus/TEI[@xml:id='fable18']">
-        <xsl:apply-templates/>
-    </xsl:template>
-    <xsl:template match="teiCorpus/TEI[@xml:id='fable19']">
-        <xsl:apply-templates/>
-    </xsl:template>
-    
+    <!-- Modèles -->
     <!-- Modèle de correspondance pour les groupes de vers -->
     <xsl:template match="lg[@type='quatrain']">
         <div class="quatrain">
@@ -222,7 +211,6 @@
     <xsl:template match="graphic">
         <img src="{@url}" alt="Illustration de la fable"/>
     </xsl:template>
-    
     
     <!-- Modèle de correspondance pour l'élément <l> dans teiCorpus/TEI/text/body/div/lg -->
     <xsl:template match="tei:teiCorpus/tei:TEI/tei:text/tei:body/tei:div/tei:lg/tei:l">
